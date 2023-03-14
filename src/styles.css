@@ -13,13 +13,13 @@
     width: 12px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #222222;
+    background-color: #141616;
     height: 100px;
 }
 :root{
     --backgoundColor: #09090A;
-    --textColor: #CBD5E1;
-    --titleColor: #F4F4F5;
+    --textColor: #F4F4F4;
+    --titleColor: #FFFF;
     --textmobile: 18px;
     --textbase: 20px;
     --titlebase: 30px;
@@ -35,6 +35,10 @@ h1,h2{
 p{
     font-size: var(--textbase);
 }
+strong{
+    color: #00D463;
+    text-decoration: underline;
+}
 body{
     width: 100%;
     height: 100%;
@@ -45,7 +49,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 56px;
+    gap: 100px;
 }
 section{
     max-width: 604px;
